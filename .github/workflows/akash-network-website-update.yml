@@ -17,5 +17,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.WORKFLOW_PAT }}
-          repository: dharamveergit/akashnetworkwebsite
+          repository: akash-network/website
           event-type: community-groups-changed
